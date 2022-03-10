@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import CT from './CT';
+import TG from './TG';
+import T from './T';
+import AP from './FMAnimatePresence';
+import R from './FMReorder';
+import FM from './FM';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <FM />,
   document.getElementById('root')
 );
 
